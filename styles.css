@@ -1,16 +1,39 @@
 
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: aqua;
+}
 ul{
 list-style-type: none;
+
+}
+
+li{
+    display: inline-block;
+    padding: 4px;
+    color: white;
+}
+
+.header{
+    width: 1200px;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header-top{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .header-links{
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     
 }
