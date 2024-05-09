@@ -36,7 +36,8 @@ nav{
     width: 1000px;
     height: auto;
     background-color: #1F2937;
-    padding: 10px;
+    margin: 10px 0px 80px 0px;
+    
 }
 
 .section1{
@@ -44,6 +45,7 @@ nav{
     justify-content: space-between;
     width: 1000px;
     height: auto;
+    margin-bottom: 80px;
 }
 
 .section1-color{
@@ -70,6 +72,19 @@ nav{
     font-size: 18px;
     color: #E5E7EB;
     width: 500px;
+    margin-bottom: 20px;
+}
+
+.section1-button1{
+    text-align: center;
+    font-weight: 900;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    width: 20%;
 }
 
 .section1-p3{
@@ -81,4 +96,28 @@ nav{
     padding: 50px;
     background-color: rgb(54, 54, 54);
     
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: aqua;
+
+}
+
+.section2-h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 80px;
+}
+
+.section2-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
