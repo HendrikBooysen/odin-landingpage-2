@@ -103,21 +103,60 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 1500px;
     height: auto;
-    background-color: aqua;
-
 }
 
 .section2-h1{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .section2-p1{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+}
+
+.section2-img1, .section2-img2, .section2-img3, .section2-img4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 500px;
+}
+
+.section2-img1-1, .section2-img2-2, .section2-img3-3, .section2-img4-4{
+    border: solid 4px blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section2-p1{
+    font-size: 15px;
+    color: rgb(75, 71, 71);
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 1920px;
+    height: auto;
+}
+
+.section3-p1{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1000px;
+height: auto;
 }
